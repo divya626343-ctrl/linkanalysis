@@ -103,8 +103,6 @@ cp .env.example .env      # Windows: copy .env.example .env
 
 ```env
 GROQ_API_KEY=your_key_here
-GROQ_BASE_URL=https://api.groq.com/openai/v1
-LLM_MODEL=openai/gpt-oss-20b
 ```
 
 Get a key from the Groq console. **Never commit `.env`**; only `.env.example` belongs in the repo.
